@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/index.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/966df1305a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>To do list</h1>
+    <hr>
+    <h3 class="nueva_tarea">Nueva Tarea</h3>
+    <div class="agregar_nueva_tarea">
+        <input type="text" id="input">
+        <button type="button" onclick="agregarTarea(event)">Agregar</button>
+    </div>
+    <div class="contenido_dinamico">
+        <div class="izquierda">
+            <h2>Total: <span id="total"></span></h2>
+            <h2>Realizadas: <span id="totalRealizadas"></span></h2>
+            
+        </div>
+        <div class="derecha">
+            <div>
+                <h2>ID:</h2>
+                <ul id="lista_id"></ul>
+            </div>
+            <div class="tareas">
+                <h2>Tarea:</h2>
+                <ul id="lista_tareas"></ul>
+            </div>
+            <div class="checkbox">
+                <h2>Completada</h2>
+                <ul id="lista_checkbox"></ul>
+            </div>
+            <div class="botones">
+                <h2>Borrar</h2>
+                <ul id="lista_botones"></ul>
+            </div>
+        </div>
+        
+       
+    </div>
+
+
+    <script src="./assests/index.js"></script>
+</body>
+</html>

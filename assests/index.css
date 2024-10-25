@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+hr{
+    margin-bottom: 2rem;
+}
+
+.nueva_tarea{
+    font-weight: 400;
+
+}
+
+.agregar_nueva_tarea{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.agregar_nueva_tarea input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.agregar_nueva_tarea button{
+    margin-left: 2rem;
+    width: 30%;
+    background-color: green;
+    color: white;
+}
+
+.contenido_dinamico{
+    display: flex;
+    width: 100%;
+}
+
+.izquierda{
+    width: 30%;
+}
+
+.derecha{
+    width: 70%;
+    display: flex;
+    
+}
+
+.tareas{
+    margin-left: 3rem;
+    margin-right: 22rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.botones{
+    margin-left: 2rem;
+}
+
+.botonBorrar {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.botonBorrar:focus {
+    outline: none;
+}
+
+i {
+    font-size: 1.2em; 
+    color: red;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+li{
+    font-size: 1.2em; 
+    margin-bottom: 0.5rem;
+}
+
+.subrayado{
+    text-decoration: line-through;
+}
